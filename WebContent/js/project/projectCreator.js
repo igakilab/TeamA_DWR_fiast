@@ -15,14 +15,3 @@ $(function() {
 		projectSelect(id);
 	});
 });
-/*
-function projectChange(id){
-	console.log(id);
-	projectCreator.projectStateChange(id,{
-		callback:function(){
-			location.reload();
-		}
-	});
-
-}
-*/
