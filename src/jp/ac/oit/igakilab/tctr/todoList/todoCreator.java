@@ -21,5 +21,7 @@ mdb.todoInsert("createTodo",td);
 }
 
 public static void main(String[] args){
+todoCreator tdm = new todoCreator();
+tdm.todoCreate("実験","testです");
 }
 }
