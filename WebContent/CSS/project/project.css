@@ -1,1 +1,5 @@
 @CHARSET "UTF-8";
+body{
+    background: #ff0000;
+}
+ul{ list-style: none; }
