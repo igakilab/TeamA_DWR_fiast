@@ -7,4 +7,10 @@ PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
 SELECT * FROM member;
 </select>
 
+<insert id="memberInsert">
+INSERT INTO
+member(member_id,name,org,age,position)
+VALUES
+(#{member_id},#{name},#{org},#{age},#{position});
+</insert>
 </mapper>
