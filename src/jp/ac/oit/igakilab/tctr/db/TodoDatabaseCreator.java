@@ -18,4 +18,10 @@ todoItem = session.selectList("todoListen");
 }
 return todoItem;
 }
+public void todoInsert(String mapper,todoManager tm){
+try (SqlSession session = factory.openSession()){
+session.insert(mapper,tm);
+session.commit();
+}
+}
 }
