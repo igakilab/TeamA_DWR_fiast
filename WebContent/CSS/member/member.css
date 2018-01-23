@@ -1,1 +1,9 @@
 @CHARSET "UTF-8";
+
+body{
+    background: red;
+}
+
+ul{
+    list-style: none;
+}
