@@ -6,12 +6,3 @@ memberListener.memberListen({
 	}
 });
 
-$(function() {
-	for(var i = 0;i<150;i++){
-		if(i == 20){
-			$("#age").append('<option value = "'+ i +'" selected>'+i+'</option>');
-		}else{
-			$("#age").append('<option value = "'+ i +'">'+i+'</option>');
-		}
-	}
-});
