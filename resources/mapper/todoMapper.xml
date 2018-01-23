@@ -10,5 +10,7 @@ select * from todolist;
 select * from todolist WHERE id = #{id};
 </select>
 
+<insert id="createTodo"> INSERT INTO todolist(id,title,date,overview,status) VALUES (#{id},#{title},#{date},#{overview},"1"); </insert>
+
 
 </mapper>
